@@ -3,22 +3,24 @@
 <html>
 <head>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
+    
    <meta charset="utf-8">
    <title>Test Map</title>
 </head>
-<body>
-        <div>
-            <input id = 'KICK_Board_Button';, type = "button";, style = "font-size : 1em";, onclick="KICK_Board()", value = "킥보드 주차 구역">
-            <input id = 'SmokeingBooth_Button';, type = "button";, style = "font-size : 1em";, onclick="SmokeingBooth()", value = "흡연 부스">
-            <input id = 'Do_Not_Smoke_IKSAN_Button';, type = "button";, style = "font-size : 1em";, onclick="Do_Not_Smoke_IKSAN()", value = "금연 구역">
-            <input id = 'EV_charging_Button';, type = "button";, style = "font-size : 1em";, onclick="EV_charging()", value = "전기차 충전소">
-            <input id = 'Shelter_Button';, type = "button";, style = "font-size : 1em";, onclick="Shelter()", value = "익산시 대피소">
-            <input id = 'remove_Button';, type = "button";, style = "font-size : 1em";, onclick="remove()", value = "전체 제거">
+<body style="background-color: skyblue;">
+        <div class = "map_wrap">
+            <h2 id = "Team">Team 14 : 지니어's</h2>
+            <div id="map" style="width : 100%; height : 90vh;">
+                <input id = 'KICK_Board_Button';, type = "button";, onclick="KICK_Board()", value = "킥보드 주차 구역">
+                <input id = 'SmokeingBooth_Button';, type = "button";, onclick="SmokeingBooth()", value = "흡연 부스">
+                <input id = 'Do_Not_Smoke_IKSAN_Button';, type = "button";, onclick="Do_Not_Smoke_IKSAN()", value = "금연 구역">
+                <input id = 'EV_charging_Button';, type = "button";, onclick="EV_charging()", value = "전기차 충전소">
+                <input id = 'Shelter_Button';, type = "button";, onclick="Shelter()", value = "익산시 대피소">
+                <input id = 'remove_Button';, type = "button";, onclick="remove()", value = "전체 제거">
+            </div>
         </div>
-
-        <div id="map" style="width : 100%; height : 90vh;"></div>
-
 
    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=373e06c2cd63da8001088c6b7858d8f0"></script>
    <script src = "main.js"></script>

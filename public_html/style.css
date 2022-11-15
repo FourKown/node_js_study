@@ -1,0 +1,84 @@
+#Team{
+    color: white;
+    font-weight: bolder;
+    text-align : center;
+    border : 4px solid blue;
+    background-color: blue;
+}
+
+#KICK_Board_Button{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: yellow;
+    color : black;
+    font-weight: bolder;
+}
+
+#SmokeingBooth_Button{
+    position:absolute;
+    top:10px;
+    left:135px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: gray;
+    font-weight: bolder;
+}
+
+#Do_Not_Smoke_IKSAN_Button{
+    position:absolute;
+    top:10px;
+    left:215px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: green;
+    font-weight: bolder;
+}
+
+#EV_charging_Button{
+    position:absolute;
+    top:10px;
+    left: 295px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: #7fb1bf;
+    font-weight: bolder;
+}
+
+#Shelter_Button{
+    position:absolute;
+    top:10px;
+    left:403px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bolder;
+}
+
+#remove_Button{
+    position:absolute;
+    top:10px;
+    left:510px;
+    padding:10px;
+    z-index:10;
+
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+

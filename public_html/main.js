@@ -7272,6 +7272,7 @@ KICK_Board_Button.disabled = false;
 SmokeingBooth_Button.disabled = false;
 Do_Not_Smoke_IKSAN_Button.disabled = false;
 EV_charging_Button.disabled = false;
+Shelter_Button.disabled = false;
 
 setMarkers(null);
 }
