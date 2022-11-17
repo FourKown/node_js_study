@@ -10,7 +10,7 @@
     position:absolute;
     top: 10px;
     left: 10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
@@ -21,9 +21,9 @@
 
 #SmokeingBooth_Button{
     position:absolute;
-    top:40px;
+    top:70px;
     left:10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
@@ -33,9 +33,9 @@
 
 #Do_Not_Smoke_IKSAN_Button{
     position:absolute;
-    top:70px;
+    top:130px;
     left:10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
@@ -45,9 +45,9 @@
 
 #EV_charging_Button{
     position:absolute;
-    top:100px;
+    top:190px;
     left: 10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
@@ -57,9 +57,9 @@
 
 #Shelter_Button{
     position:absolute;
-    top:130px;
+    top:250px;
     left:10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
@@ -69,9 +69,9 @@
 
 #remove_Button{
     position:absolute;
-    top:160px;
+    top:310px;
     left:10px;
-    padding:1px;
+    padding:20px;
     z-index:10;
 
     border-radius: 10px;
